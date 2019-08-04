@@ -2,22 +2,26 @@ __PicBed__ 是 `MacOS` 下提高 `markdown` 贴图效率的实用小工具。利
 
 ## 预览
 1. 截图转链接：
+
 ![20180804](https://raw.githubusercontent.com/zeng-tong/PicBed/master/screenshot/20190804.gif)
-2. 本地图片转链接：
 
 
 ## 直接用
 1. 申请七牛云账号, 配置`对象存储`空间.
 2. 下载 [pic-to-markdown-format](https://raw.githubusercontent.com/zeng-tong/PicBed/master/pictureBed.alfredworkflow)
 3. Alfred 添加环境变量:
+
 ![gif](https://raw.githubusercontent.com/zeng-tong/PicBed/master/screenshot/2018080415.gif)
+
 ```
+# 需添加如下信息：
 1. domain      # 七牛云 URL
 2. bucket_name # 存储空间名
 3. secret_key  # 密钥
 4. access_key  # 密钥
 ```
 ![1558287557849](https://raw.githubusercontent.com/zeng-tong/PicBed/master/screenshot/1558287557849)
+
 ## 造轮子
 1. 申请七牛云账号, 配置`对象存储`空间.
 2. 新建 Alfred workflow,  `Blank workflow` 。进到该`workflow`目录下，新建 Python 脚本.
